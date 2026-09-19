@@ -3,8 +3,10 @@
      int score;
      printf("Enter your score (0-100): ");
      scanf("%d", &score);
+
      if (score < 0 || score > 100) {
-         printf("Invalid score! Range is 0-100\n");
+
+     printf("Invalid score! Range is 0-100\n");
      }
      else if (score >= 90) {
          printf("Score: %d → Grade: A\n", score);
